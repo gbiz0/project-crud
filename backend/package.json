@@ -2,11 +2,31 @@
   "name": "project-crud",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:gbiz0/project-crud.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gbiz0/project-crud.git"
+  },
   "author": "gbiz0 <jardimbgustavo@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "pg": "^8.16.3"
+  },
+  "bugs": {
+    "url": "https://github.com/gbiz0/project-crud/issues"
+  },
+  "homepage": "https://github.com/gbiz0/project-crud#readme",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }

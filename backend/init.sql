@@ -19,3 +19,11 @@ CREATE TABLE
         FornecedorID INTEGER NOT NULL,
         CONSTRAINT fk_fornecedor FOREIGN KEY (FornecedorID) REFERENCES Fornecedor (ID)
     );
+
+CREATE TABLE
+    Usuario (
+        ID SERIAL PRIMARY KEY,
+        Removido BOOLEAN DEFAULT false NOT NULL,
+        Login VARCHAR(50) NOT NULL UNIQUE,
+        Senha VARCHAR(255) NOT NULL
+    );
