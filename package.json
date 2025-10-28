@@ -1,0 +1,11 @@
+{
+  "name": "project-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gbiz0/project-crud.git",
+  "author": "gbiz0 <jardimbgustavo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
