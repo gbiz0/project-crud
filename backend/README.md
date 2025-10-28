@@ -1,6 +1,6 @@
-# Backend do Sistema Financeiro
+# Backend
 
-Este é o backend de um sistema financeiro simples, implementado em Node.js, que gerencia operações CRUD para fornecedores e contas a pagar, com autenticação JWT.
+Este é o backend implementado em Node.js, que gerencia operações CRUD para fornecedores e contas a pagar, com autenticação JWT.
 
 ## Tecnologias Utilizadas
 
