@@ -18,9 +18,6 @@ export default function NavHeader() {
             <Link to="/" className="font-semibold text-lg">
               App
             </Link>
-            <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors">
-              Home
-            </Link>
             <Link to="/fornecedores" className="text-muted-foreground hover:text-foreground transition-colors">
               Fornecedores
             </Link>

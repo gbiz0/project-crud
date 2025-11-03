@@ -178,7 +178,7 @@ export default function Fornecedores() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex items-center justify-between mb-6">
           <div>
-            <h1 className="text-2xl font-semibold">Fornecedores</h1>
+            <h1 className="text-2xl font-semibold text-left">Fornecedores</h1>
             <p className="text-muted-foreground">Gerencie seus fornecedores</p>
           </div>
           <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
